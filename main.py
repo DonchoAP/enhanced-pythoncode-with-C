@@ -1,9 +1,6 @@
 import re
 import subprocess
 
-
-
-
 def extract_words_from_text(text):
     # Using a regular expression to extract only words from the text
     words = re.findall(r'\b\w+\b', text)
